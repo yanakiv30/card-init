@@ -75,7 +75,9 @@ function Skill({skill, color, level}) {
     <div className="skill" style={{backgroundColor: color}}>
       <span>{skill}</span>
       <span>
-        {level==="beginner" && "111"}
+        {level==="Beginner" && "👶"}
+        {level==="Intermediate" && "👍"}
+        {level==="Advanced" && "⭐"}
       </span>
     </div>
   );
